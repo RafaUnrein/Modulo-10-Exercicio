@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contanier{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;    
+}
+
+header, footer{
+    background-color: black;
+    padding-top: 28px; 
+    color: white;          
+}
+
+header > .contanier{    
+    align-items: center;    
+    padding-bottom: 28px;   
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+section{
+    padding: 30px 0;
+}
+
+button{
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-size: italic;
+    cursor: pointer;
+    border-radius: 6px;
+    max-width: 120px;  
+}
+
+form{
+    max-width: 360px;
+}
+
+.form-campo{
+    margin-bottom: 16px;     
+}
+
+.form-campo label{
+    font-weight: bold;
+    display: block;
+}
+
+.form-campo input{
+    width: 100%;
+    padding: 6px;
+    display: block; 
+}
+
+footer{
+    position:absolute;
+    bottom:0; 
+    width:100%;
+    margin-top: 10px;
+    text-align: center;
+    padding: 28px;      
+}
